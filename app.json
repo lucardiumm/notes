@@ -2,6 +2,7 @@
   "expo": {
     "name": "TsDocs",
     "slug": "TsDocs",
+    "scheme": "com.tsdocs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,26 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "206987bf-8ec6-4f5e-8488-a013dfa63a19"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/206987bf-8ec6-4f5e-8488-a013dfa63a19"
     }
   }
 }
